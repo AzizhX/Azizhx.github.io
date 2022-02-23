@@ -5,33 +5,30 @@
     <title>Rod Cutting Algorithm</title>
 </head>
 <body>
-    <script src="rod-cutting-algorihtm.js"></script>
     <h1>Rod Cutting Algoritm</h1>
 
-        <p>This page helps you to solve the rod cutting problem,
-        by printing the optimal revenu and optimal choices for a specific length and prices.</p>
-
+        <p>This page helps you to solve the rod cutting problem.</p>
+        <p id="note"><span style="background-color: #262D43; color: white;">* Note:</span> 
+            type the rod prices  with a <span style="font-weight: bold;">
+            single</span> space between each number.</p>
     <section>
-       <table>
+       <table id = "table">
         <!--First Row-->
          <tr >
             <td>
                 <label for="first-input">Enter the rod prices</label>
-
             </td>
             <td>
-                <input type="text" id="first-input" placeholder="Ex: 12  13  15">
+                <input type="text" id="first-input" placeholder="Example: 1 5 7">
             </td>
          </tr>
          <!--Second Row-->
          <tr>
             <td>
                 <label for="second-input">Enter a length</label>
-
             </td>
             <td>
-                <input type="number" id="second-input" placeholder="Ex: 4">
-
+                <input type="number" id="second-input" placeholder="Ex: 3">
             </td>
          </tr>
          <!--Button Row-->
@@ -43,30 +40,26 @@
         <!--Third Row-->
         <tr>
             <td>
-                <label for="first-output">Optimal Revenus</label>
-
+                <label for="first-output">Optimal Revenue</label>
             </td>
             <td>
                 <input type="text" id="first-output" readonly>
-
             </td>
         </tr>
         <!--Fourth Row-->
 
         <tr>
             <td>
-                <label for="second-output">Optimal Choice</label>
-
+                <label for="second-output">Optimal Choice - r[i]</label>
             </td>
             <td>
                 <input type="text" id="second-output" readonly>
-
             </td>
         </tr>
         <!--Fifth Row-->
         <tr>
             <td>
-                <label for="second-output">Solutions</label>
+                <label for="second-output">Cuts - s[i]</label>
 
             </td>
             <td>
@@ -75,8 +68,23 @@
             </td>
         </tr>
     </table> 
+    <table>
+                <!--Last Row-->
+                <tr>
+                    <td colspan="2" style="text-align: center; padding-top: 60px;">
+                            <p id="made-by">Made by Azizah Alshammari.</p>
+                            <a href="https://twitter.com/ArtistAzizh" target="_blank">
+                                <img src="twitter-icon.png" alt="" width="25px"> 
+                            </a>
+                            <a href="https://github.com/AzizhX" target="_blank">
+                                <img src="github-icon.png" alt="" width="25px">
+                            </a>
+                    
+                    </td>
+                </tr>
+    </table>
     </section>
-    
 
+    <script src="rod-cutting-algorihtm.js"></script>
 </body>
 </html>

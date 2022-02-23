@@ -1,5 +1,3 @@
-var rLen = 8 ,
-    prices = [1, 5, 8, 9, 10, 17, 17, 20, 24, 30];
 //Taking Input from User:
     function rodPricesInput(){
         let rodPricesInput = document.getElementById("first-input").value;
