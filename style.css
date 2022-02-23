@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: #262D43;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+section{
+    width: 650px;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+p{
+    font-size: 19px;
+    width: 664px;
+    height: 105px;
+    left: 388px;
+    top: 127px;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+}
+
+
+ /*
+ -------- Inputs --------
+ */
+ 
+ input[type = "text"],input[type = "number"] {
+    font-size: 20px;
+ }
+
+label{
+    font-size: 20px;  
+    display: inline-block;
+    width: 245px;
+    
+}
+#first-input , #second-input{ 
+    background: #D7E0FF;
+    border: 2px solid #262D43;
+    border-radius: 12px;
+    height: 46px;
+
+}
+
+#first-input{
+    width: 400px;
+}
+
+#second-input{
+    width: 166px;  
+}
+
+
+table td{
+    width: 600px;
+    padding: 10px;
+
+}
+
+#solve-button{
+    padding: 10px;
+    width: 6rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #262D43;
+    background-color: #aabdff;
+    border-radius: 10px;
+}
+#solve-button:hover{
+    background-color: #8597db;
+
+}
+
+ /*
+ -------- Outputs --------
+ */
+
+ #first-output , #second-output, #third-output{ 
+    background: #EFF3FF;
+    border: 2px solid #262D43;
+    border-radius: 12px;
+    height: 46px;
+}
+#first-output{
+    width: 400px; 
+}
+#second-output, #third-output{
+    width: 166px;  
+}
+
+
+
+
+
+

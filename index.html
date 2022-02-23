@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Rod Cutting Algorithm</title>
+</head>
+<body>
+    <script src="rod-cutting-algorihtm.js"></script>
+    <h1>Rod Cutting Algoritm</h1>
+
+        <p>This page helps you to solve the rod cutting problem,
+        by printing the optimal revenu and optimal choices for a specific length and prices.</p>
+
+    <section>
+       <table>
+        <!--First Row-->
+         <tr >
+            <td>
+                <label for="first-input">Enter the rod prices</label>
+
+            </td>
+            <td>
+                <input type="text" id="first-input" placeholder="Ex: 12  13  15">
+            </td>
+         </tr>
+         <!--Second Row-->
+         <tr>
+            <td>
+                <label for="second-input">Enter a length</label>
+
+            </td>
+            <td>
+                <input type="number" id="second-input" placeholder="Ex: 4">
+
+            </td>
+         </tr>
+         <!--Button Row-->
+         <tr>
+             <td colspan="2">
+                <input type="button" id="solve-button" value="Solve" onclick="cutRodAlgorithm()"></input>
+             </td>
+         </tr>
+        <!--Third Row-->
+        <tr>
+            <td>
+                <label for="first-output">Optimal Revenus</label>
+
+            </td>
+            <td>
+                <input type="text" id="first-output" readonly>
+
+            </td>
+        </tr>
+        <!--Fourth Row-->
+
+        <tr>
+            <td>
+                <label for="second-output">Optimal Choice</label>
+
+            </td>
+            <td>
+                <input type="text" id="second-output" readonly>
+
+            </td>
+        </tr>
+        <!--Fifth Row-->
+        <tr>
+            <td>
+                <label for="second-output">Solutions</label>
+
+            </td>
+            <td>
+                <input type="text" id="third-output" readonly>
+
+            </td>
+        </tr>
+    </table> 
+    </section>
+    
+
+</body>
+</html>
