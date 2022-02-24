@@ -58,5 +58,4 @@ document.getElementById("second-output").value = OptChoice[rLen];
 
 console.log('Optimal Solutions: ', CutRodSolution(rLen, OptChoice));
 document.getElementById("third-output").value = CutRodSolution(rLen, OptChoice);
-
 }
